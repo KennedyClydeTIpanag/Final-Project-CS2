@@ -4,6 +4,9 @@
 
 
 ## 🎯 Project Objectives  
+Objective 1: To organize the medical records of the patients.
+Objective 2: To provide healthcare profesionals with easy access to each patient's medical history.
+Objevtive 3: To analyze trends across patients (e.g, common diagnoses, medication given, frequency of visits)
 
 
 ## 🔍 Problem Statement  
