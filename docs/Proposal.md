@@ -18,9 +18,6 @@
 ## 🧠 Logic Plan  
 
 
-### Option 2: Flowchart  
-
-
 ## 📂 GitHub Repository Link  
 
 
