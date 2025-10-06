@@ -1,7 +1,7 @@
 # 📌 Project Proposal (Draft)
 
 ## 📝 Project Title  
-
+# HOSPITAL RECORD SCANNER
 
 ## 🎯 Project Objectives  
 Objective 1: To organize the medical records of the patients.
@@ -40,8 +40,27 @@ Feature #5 : Analytics - It is what collects and analyzes the data.
     
 
 ## 🧠 Logic Plan  
+Pseudocode:
+
+START
+import JSON
+DECLARE hospitaldata, nameinput, nameindata, visitdetails, appointmentdates, notes, tests
+with open('hospital.json', 'r') as file:
+  hospitaldata = json.load(file)
+INPUT nameinput
+FOR stuff IN hospitaldata
+  IF stuff['nameindata'] == nameinput THEN
+    SET visitdetails TO item['visits']
+    SET appointmentdates TO visitdetails['visit_date']
+    SET notes TO visitdetails['notes']
+    SET tests TO visitdetails['diagnosis']
+  ENDIF
+ENDLOOP
+
+END
+
 
 
 ## 📂 GitHub Repository Link  
-
+https://github.com/KennedyClydeTIpanag/Final-Project-CS2
 
