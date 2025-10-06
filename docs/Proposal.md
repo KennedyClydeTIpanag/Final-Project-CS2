@@ -21,7 +21,7 @@ Feature #2 : EHR - Count how many visits a patient has made
 
 Feature #3 : Storage for the data - Data is saved. When deleted, you still have to access another storage to permanently delete it. If the decision is to not delete it permanently, then the data can still be restored. 
 
-Feature #4 :  Libraries - for example, panda, controls the data.
+Feature #4 :  Managed data - Data is controlled/manipulated by healthcare professionals (with the help of libraries in python).
 
 Feature #5 : Analytics - It is what collects and analyzes the data.
 
