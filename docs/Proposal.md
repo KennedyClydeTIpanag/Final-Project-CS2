@@ -42,22 +42,22 @@ Feature #5 : Analytics - It is what collects and analyzes the data.
 ## 🧠 Logic Plan  
 Pseudocode:
 
-START
-import JSON
-DECLARE hospitaldata, nameinput, nameindata, visitdetails, appointmentdates, notes, tests
-with open('hospital.json', 'r') as file:
-  hospitaldata = json.load(file)
-INPUT nameinput
-FOR stuff IN hospitaldata
-  IF stuff['nameindata'] == nameinput THEN
-    SET visitdetails TO item['visits']
-    SET appointmentdates TO visitdetails['visit_date']
-    SET notes TO visitdetails['notes']
-    SET tests TO visitdetails['diagnosis']
-  ENDIF
-ENDLOOP
+START  
+import JSON  
+DECLARE hospitaldata, nameinput, nameindata, visitdetails, appointmentdates, notes, tests  
+with open('hospital.json', 'r') as file:  
+&emsp;hospitaldata = json.load(file)  
+INPUT nameinput  
+FOR stuff IN hospitaldata  
+&emsp;IF stuff['nameindata'] == nameinput THEN  
+&emsp;&emsp;SET visitdetails TO item['visits']  
+&emsp;&emsp;SET appointmentdates TO visitdetails['visit_date']  
+&emsp;&emsp;SET notes TO visitdetails['notes']  
+&emsp;&emsp;SET tests TO visitdetails['diagnosis']  
+&emsp;ENDIF  
+ENDLOOP  
 
-END
+END  
 
 
 
