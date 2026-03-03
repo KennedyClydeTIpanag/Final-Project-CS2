@@ -1,0 +1,7 @@
+----- Contributions -----
+- Ipanag: Proposal, Flowchart, Github Repository Uploads
+- Salarda: Proposal, Flowchart
+- Suriba: Proposal, Flowchart
+- Ongbay: Proposal, Colab & Firebase
+- Montefalcon: Proposal, Colab & Firebase
+-------------------------
